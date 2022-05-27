@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    border: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    position: relative;
+    width: 90vh;
+}
+
+.navbar {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: fixed;
+    z-index: 8;
+}
+
+.navbar-box {
+    display: flex;
+    align-items: flex-start;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.logo-name {
+    font-size: 4rem;
+    color: #da6b1d;
+
+}
+
+.navbar-list {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+}
+
+.navbar-item {
+    display: inline-block;
+
+}
+
+.navbar-link:visited,
+.navbar-link:link {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid black;
+    transition: all .2s ease;
+}
+
+.navbar-link:hover {
+    background-color: #da6b1d;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.navbar-link-reservation:visited,.navbar-link-reservation:link{text-decoration:none;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: 1px solid #da6b1d;
+    border-radius: 50px;
+    box-shadow: 0 0 1rem rgba(236, 118, 40, .5);
+    text-shadow: 0 .3rem 1rem rgba(255,255,255, .5);
+    transition: all .4s ease;
+}
+
+
+.navbar-link-reservation:hover{
+    background-color: #da6b1d;
+    color:whitesmoke;
+
+}
+
+.toggle{
+    height:4rem;
+    width:4rem;
+  
+}
+
+.toggle div{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    margin: 1rem;
+}
+
